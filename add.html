@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="q3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="navbar">
+        <div class="adb"><a href="./index.html">Address Book</a></div>
+        <div>
+            <ul>
+                <li><a href="./search.html">Search</a></li>
+                <li><a href="./all.html">Show All Contacts</li>
+                <li><a href="./add.html">Add New Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+<br>
+
+
+
+    <div id="contact-panel" class="panel">
+        <form id="contact" action="#">
+
+            <h2>Add a New Contact</h2>
+            <div>
+
+                <label>
+                    <input type="text" name="person" id="name" placeholder="Name" />
+                </label>
+
+                <label>
+                    <input type="text" name="phone" id="phone" placeholder="Phone no." />
+                </label>
+
+                <label>
+                    <input type="text" name="email" id="email" placeholder="Email" />
+                </label>
+
+                <label>
+                    <input type="text" name="address" id="address" placeholder="Address" />
+                </label>
+            </div>
+
+            <div id="submit2">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+
+
+    <div id="show-panel" class="panel"></div>
+    <script src="add_script.js"></script>
+
+</body>
+
+</html>

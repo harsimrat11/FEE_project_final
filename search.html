@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="q2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="navbar">
+        <div class="adb"><a href="./index.html">Address Book</a></div>
+        <div>
+            <ul>
+                <li><a href="./search.html">Search</a></li>
+                <li><a href="./all.html">Show All Contacts</li>
+                <li><a href="./add.html">Add New Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+<br>
+
+    <div id="search-panel" class="panel">
+        <h2>Search Contacts</h2>
+        <form id="search" action="#">
+
+            <div id="results"></div>
+            <div>
+                <label>
+                    <input type="text" name="search" id="search" placeholder="Enter name of contact" />
+                </label>
+            </div>
+
+            <div id="submit">
+                <input type="submit" value="Search" />
+            </div>
+        </form>
+    </div>
+
+
+    <div id="show-panel" class="panel"></div>
+    <script src="search_script.js"></script>
+
+</body>
+
+</html>

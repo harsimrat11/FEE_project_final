@@ -1,0 +1,108 @@
+
+
+body 
+{
+  font-family: sans-serif;
+  background: linear-gradient(30deg, rgba(0, 24, 161, 0.645) 0%, rgba(62, 255, 4, 0.5) 100%);
+}
+
+h2 
+{
+  font-size: 1.2em;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif
+}
+
+.navbar
+{
+  color:rgb(99, 23, 180);
+}
+a{
+  color:cornsilk;
+  text-decoration: none;
+}
+.navbar ul
+{
+  display:flex;
+  background-color: black;
+  color: cornsilk;
+  font-weight: 320;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  padding:21px;
+  justify-content: right;
+  list-style:none ;
+
+}
+#submit input 
+{
+  background-color:#b6b6b6bc
+}
+
+.adb
+{
+  position: absolute;
+  margin-top: 1.8vh;
+  margin-left: 5vh;
+  font-size: 30px;
+  font-weight: 320;
+  font-family:'Cinzel Decorative'
+  
+
+}
+.adb a
+{
+  color:rgb(23, 142, 228);
+}
+.navbar li
+{
+   margin:0 2px;
+   padding:0 25px;
+   list-style: none;
+}
+
+.navbar ul li:hover
+{
+ color:rgb(134, 254, 254);
+ font-size: large;
+ font-weight: 500;
+}
+.navbar ul a:hover
+{
+  color:cyan;
+}
+.navbar ul li:active
+{
+ color:rgb(134, 254, 146);
+
+}
+
+.panel 
+{
+  background: whitesmoke;
+  padding: 1em;
+  width: 92.5%;
+  margin: auto;
+  max-width: 30em;
+}
+
+
+input 
+{
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: none;
+  border-bottom: 2px solid blue;
+  outline: none;
+}
+
+.navbar ul 
+{
+  text-decoration: none;
+  display: flex;
+  margin: auto;
+  list-style-type: none;
+}
+
